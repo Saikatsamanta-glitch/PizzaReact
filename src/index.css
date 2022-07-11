@@ -6,8 +6,53 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.hero{
+ background: #e0fffe;
+  width: 100vw;
+  height: 500px;
+}
+.left_side{
+  width: 45%;
+  height: 500px;
+  
+}
+.right_side{
+  width: 55%;
+  height: 500px;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+}
+.left_side > .btn{
+  width: 40% !important;
+}
+.left_side > h1{
+  font-size: 60px;
+}
+.grids{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  row-gap: 20px;
+}
+.cardpizza:hover {
+  box-shadow:  8px 10px 10px 0px #595959;;
+}
+@media only screen and (max-width: 600px){
+  .hero{
+    height: 400px;
+  }
+  .right_side{
+    display: none !important;
+  }
+  .left_side{
+    height: 300px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    width: 100vw;
+  }
+  .left_side > h1{
+    font-size: 50px;
+  }
+  .left_side > .btn{
+    width: 80% !important;
+  }
 }
