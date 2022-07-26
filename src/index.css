@@ -35,6 +35,10 @@ body {
 .cardpizza:hover {
   box-shadow:  8px 10px 10px 0px #595959;;
 }
+.footer{
+  height: 300px;
+  background: #e0fffe;
+}
 @media only screen and (max-width: 600px){
   .hero{
     height: 400px;
@@ -55,4 +59,15 @@ body {
   .left_side > .btn{
     width: 80% !important;
   }
+}
+.login_form{
+  height: 500px;
+}
+.login_form > form {
+  height: 70%;
+  border:3px solid rgb(55, 199, 235);
+  border-radius: 15px;
+}
+.login_form > form input {
+  margin-top: 80px;
 }
